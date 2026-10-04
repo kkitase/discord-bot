@@ -8,5 +8,4 @@
 node_modules/
 
 # エージェントのローカル設定
-
 .agent/
