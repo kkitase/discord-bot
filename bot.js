@@ -17,7 +17,7 @@ const client = new Client({
 
 // Gemini APIのクライアント設定
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const modelName = process.env.GEMINI_MODEL || "gemini-2.5-pro";
+const modelName = process.env.GEMINI_MODEL || "gemini-3.5-flash";
 const model = genAI.getGenerativeModel({ model: modelName });
 console.log(`Using Gemini model: ${modelName}`);
 
